@@ -15,12 +15,7 @@ let apellido = "Organa";
 let edad = 20;
 
 console.log(
-  "Soy " +
-    nombre +
-    apellido +
-    ", tengo " +
-    edad +
-    "años, y soy una princesa de Alderaan."
+  `Soy ${nombre} ${apellido}, tengo ${edad} años, y soy una princesa de Alderaan.`
 );
 
 //2.3. Calculando el coste total de sables de luz

@@ -10,9 +10,9 @@ jedi.edad = 25;
 
 //2.2. Presentación al estilo Leia Organa
 
-let nombre = "Leia";
-let apellido = "Organa";
-let edad = 20;
+const nombre = "Leia";
+const apellido = "Organa";
+const edad = 20;
 
 console.log(
   `Soy ${nombre} ${apellido}, tengo ${edad} años, y soy una princesa de Alderaan.`

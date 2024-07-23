@@ -18,7 +18,9 @@ aldeanos.reverse();
 console.log(aldeanos);
 
 //4.5 - Cambia a "Narciso" por "Canela" haciendo uso de un método de array.
+const pos_narciso = aldeanos.indexOf("Narciso");
+aldeanos.splice(pos_narciso,1,"Canela");
+console.log(aldeanos);
 
 //4.6 - Imprime por consola el último elemento de este array sin atacar a la posición explicitamente
-
-// Pista: puedes usar el método length con algo más para ello.
+console.log(aldeanos[aldeanos.length - 1]);

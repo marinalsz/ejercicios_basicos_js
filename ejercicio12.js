@@ -14,6 +14,17 @@ const duplicates = [
   "soda",
 ];
 
+const duplicatesTwo = [
+  "ordenador",
+  "altavoz",
+  "teclado",
+  "altavoz",
+  "calendario",
+  "tablero",
+  "hoja",
+  "ordenador",
+];
+
 function removeDuplicates(list) {
   const uniques = [];
   for (const element of list) {
@@ -25,3 +36,4 @@ function removeDuplicates(list) {
 }
 
 removeDuplicates(duplicates);
+removeDuplicates(duplicatesTwo);

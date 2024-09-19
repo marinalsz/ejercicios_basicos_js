@@ -14,7 +14,7 @@ const words = [
   "code",
 ];
 
-const wordsTwo = [
+const palabras = [
   "sea",
   "main",
   "bear",
@@ -39,4 +39,4 @@ function repeatCounter(list) {
 }
 
 repeatCounter(words);
-repeatCounter(wordsTwo);
+repeatCounter(palabras);

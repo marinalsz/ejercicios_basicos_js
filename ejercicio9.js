@@ -1,7 +1,7 @@
 //Ejercicio 9
 
 const numbers = [1, 2, 3, 5, 45, 37, 58];
-const numbersTwo = [100, 200, 300];
+const ages = [100, 200, 300];
 
 function sumNumbers(numberList) {
   let sum = 0;
@@ -12,4 +12,4 @@ function sumNumbers(numberList) {
 }
 
 sumNumbers(numbers);
-sumNumbers(numbersTwo);
+sumNumbers(ages);

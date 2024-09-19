@@ -14,7 +14,7 @@ const names = [
   "Marc",
 ];
 
-const namesTwo = [
+const singers = [
   "Pilar",
   "Vanesa",
   "Robert",
@@ -35,5 +35,5 @@ function nameFinder(nameList, name) {
 }
 
 nameFinder(names, "Peggy");
-nameFinder(namesTwo, "Taylor");
-nameFinder(namesTwo, "Swift");
+nameFinder(singers, "Taylor");
+nameFinder(singers, "Swift");

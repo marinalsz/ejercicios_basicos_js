@@ -9,8 +9,8 @@ const products = [
   "AC/DC Camiseta",
 ];
 
-for (const element of products) {
-  if (element.toLowerCase().includes("Camiseta".toLowerCase())) {
-    console.log(element);
+for (const product of products) {
+  if (product.toLowerCase().includes("Camiseta".toLowerCase())) {
+    console.log(product);
   }
 }

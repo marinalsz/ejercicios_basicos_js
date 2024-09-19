@@ -14,7 +14,7 @@ const duplicates = [
   "soda",
 ];
 
-const duplicatesTwo = [
+const things = [
   "ordenador",
   "altavoz",
   "teclado",
@@ -36,4 +36,4 @@ function removeDuplicates(list) {
 }
 
 removeDuplicates(duplicates);
-removeDuplicates(duplicatesTwo);
+removeDuplicates(things);
